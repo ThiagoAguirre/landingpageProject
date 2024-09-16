@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #6f9c95;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    height: 80vh;
+    background: url('assets/image/Imagemia.webp') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* A imagem de fundo permanece fixa */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.hero-content button {
+    padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
+    background-color: #ff7a59;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.about-section, .services-section, .contact-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.about-section h2, .services-section h2, .contact-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.service-item {
+    margin-bottom: 2rem;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #6f9c95;
+}
+
+.service-item p {
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 1rem 2rem;
+    background-color: #6f9c95;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
